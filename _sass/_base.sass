@@ -85,7 +85,7 @@ p
 	padding: 0 20px
 	line-height: 40px
 	color: white
-	background-color: $blue
+	background-color: $theme_base_color
 	text-decoration: none
 
 #cellophane
@@ -120,7 +120,7 @@ header
 	top: 0
 	left: 0
 	transform: none
-	background-image: url(/images/nav_logo.svg)
+	background-image: url(/images/contiv_logo.png)
 	background-size: contain
 	background-position: center center
 	background-repeat: no-repeat
@@ -152,7 +152,7 @@ header
 		display: block
 		width: 45px
 		height: 44px
-		background-image: url(/images/favicon.png)
+		background-image: url(/images/contiv_logo_50.png)
 
 
 	&.flip-nav .flyout-button
@@ -198,7 +198,7 @@ header
 		left: 15%
 		width: 70%
 		height: 2px
-		background-color: $blue
+		background-color: $theme_base_color
 		transition: 0.3s
 		content: ""
 
@@ -217,7 +217,7 @@ header
 
 #mainNav
 	h5
-		color: $blue
+		color: $theme_base_color
 		font-weight: normal
 
 	main
@@ -231,7 +231,7 @@ header
 
 	h3
 		a
-			color: $blue
+			color: $theme_base_color
 			text-decoration: none
 
 // FLIP NAV
@@ -270,8 +270,8 @@ header
 .open-nav, .y-enough
 	#tryKubernetes
 		width: 150px
-		background-color: $blue
-		border-color: $blue
+		background-color: $theme_base_color
+		border-color: $theme_base_color
 
 
 .flip-nav, .open-nav
@@ -283,8 +283,8 @@ header
 		color: $dark-grey
 
 		&:hover
-			border-color: $blue
-			background-color: $blue
+			border-color: $theme_base_color
+			background-color: $theme_base_color
 			color: white
 
 	#hamburger:hover
@@ -295,7 +295,7 @@ header
 
 // HERO
 #hero
-	background-image: url(/images/texture.png)
+	// background-image: url(/images/texture.png)
 	background-color: $dark-grey
 	text-align: center
 	padding-left: 0
@@ -321,7 +321,7 @@ header
 // FOOTER
 footer
 	width: 100%
-	background-image: url(/images/texture.png)
+	// background-image: url(/images/texture.png)
 	background-color: $dark-grey
 
 	main
@@ -510,10 +510,10 @@ section
 	.yah
 		& > .title
 			background-color: $light-grey
-			border-left: 3px solid $blue
+			border-left: 3px solid $theme_base_color
 			padding: 7.5px 10px 7.5px 18px
 			margin-left: -3px
-			color: $blue
+			color: $theme_base_color
 
 .open-toc
 	body
@@ -545,13 +545,13 @@ section
 		transition: 0.3s
 
 		&:hover
-			color: $blue
+			color: $theme_base_color
 
 	a.item > .title
 		color: black
 
 		&:hover
-			color: $blue
+			color: $theme_base_color
 
 	div.item > .title
 		&:before
@@ -561,7 +561,7 @@ section
 			left: 2px
 			border-style: solid
 			border-width: 5px 0 5px 8px
-			border-color: transparent transparent transparent $blue
+			border-color: transparent transparent transparent $theme_base_color
 			transform: rotate(0deg)
 			transition: 0.3s
 
@@ -645,7 +645,7 @@ dd
 		line-height: 45px
 		font-family: "Roboto", sans-serif
 		font-size: 20px
-		color: $blue
+		color: $theme_base_color
 
 	.button
 		background: none
@@ -751,7 +751,7 @@ dd
 		padding: 2px 4px
 
 	a code
-		color: $blue
+		color: $theme_base_color
 		text-decoration: underline
 
 	pre .pi, pre .s
@@ -846,7 +846,7 @@ dd
 		white-space: nowrap
 		text-indent: 50px
 		overflow: hidden
-		background: $blue url(/images/icon-pencil.svg) no-repeat
+		background: $theme_base_color url(/images/icon-pencil.svg) no-repeat
 		background-position: 12px 10px
 		background-size: 29px 29px
 
@@ -855,7 +855,7 @@ dd
 
 		ul, li
 			list-style: disc
-			color: $blue
+			color: $theme_base_color
 
 		ul
 			padding: 0 15px
@@ -868,7 +868,7 @@ dd
 
 		a
 			position: relative
-			color: $blue
+			color: $theme_base_color
 			font-weight: 700
 
 	img
@@ -930,7 +930,7 @@ $feature-box-div-margin-bottom: 40px
 #home
 	&.flip-nav, &.open-nav
 		.logo
-			background-image: url(/images/nav_logo2.svg)
+			background-image: url(/images/contiv_logo2_50.png)
 
 	#hero
 		margin-bottom: 0
@@ -950,7 +950,7 @@ $feature-box-div-margin-bottom: 40px
 	padding-bottom: $ocean-nodes-padding-Y
 
 	a
-		color: $blue
+		color: $theme_base_color
 
 	main
 		margin-bottom: $ocean-nodes-padding-Y
@@ -1013,7 +1013,7 @@ $feature-box-div-margin-bottom: 40px
 		font-size: 24px
 		background-color: white
 		border-radius: 8px
-		color: $blue
+		color: $theme_base_color
 		padding: 15px 30px 15px 80px
 
 		&:before
@@ -1024,7 +1024,7 @@ $feature-box-div-margin-bottom: 40px
 			height: 0
 			border-style: solid
 			border-width: 10px 0 10px 20px
-			border-color: transparent transparent transparent $blue
+			border-color: transparent transparent transparent $theme_base_color
 
 	#mobileShowVideoButton
 		@include pureCenter
@@ -1088,7 +1088,7 @@ $feature-box-div-margin-bottom: 40px
 #features
 	padding-top: 140px
 	background-color: $light-grey
-	background-image: url(/images/wheel.png)
+	background-image: url(/images/contiv_logo_50.png)
 	background-position: center 60px
 	background-repeat: no-repeat
 	background-size: auto
@@ -1128,7 +1128,7 @@ $feature-box-div-margin-bottom: 40px
 #community
 	&.open-nav, &.flip-nav
 		.logo
-			background-image: url(/images/nav_logo2.svg)
+			background-image: url(/images/contiv_logo2.svg)
 
 	#hero
 		padding-bottom: 20px
@@ -1140,7 +1140,7 @@ $feature-box-div-margin-bottom: 40px
 			max-width: none
 
 		a
-			color: $blue
+			color: $theme_base_color
 
 		.content
 			margin-bottom: 30px
@@ -1248,7 +1248,7 @@ $feature-box-div-margin-bottom: 40px
 
 		a
 			display: inline-block
-			color: $blue
+			color: $theme_base_color
 			font-size: 24px
 			font-weight: 400
 			text-decoration: none
